@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const NavBar = () => {
   return (
@@ -7,13 +8,19 @@ const NavBar = () => {
         <nav>
           <ul className="nav-links">
             <li>
-              <a href="#">Home</a>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li>
-              <a href="#">Wine</a>
+              <Link href="/Wine">
+                <a>Wine</a>
+              </Link>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <Link href="/AboutUs">
+                <a>About Us</a>
+              </Link>
             </li>
           </ul>
         </nav>
