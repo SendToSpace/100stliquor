@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+}
+
+.footer__section {
+  align-items: flex-start;
+}
+/* Store locations sections column */
+.footer__about {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.footer__columns {
+}
+.footer__columns__large {
+}
+/* (Overview, Resources, Information) sections column */
+.footer__columns {
+}
+
+.footer__column__menu {
+}
+
+.footer__column__menu__item {
+}
+
+.footer__column__menu__item__link {
+}
+/* footer columns sections same as Overview sections*/
