@@ -128,10 +128,11 @@ const Footer = () => {
 
       <section
         className={styles.horizontal__footer__section}
-        id={styles.footer - bottom - section}
+        id={styles.footer__bottom__section}
       >
         <div id={styles.footer__copyright__info}>
-          &copy; 100stliquor Inc. 2022. All rights reserved.
+          &copy; 100stliquor Inc. {new Date().getFullYear()}. All rights
+          reserved.
         </div>
         <div id="footer-social-buttons">
           <img src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png" />
