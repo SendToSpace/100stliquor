@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className={styles.site__footer}>
       <section className={styles.footer__section}>
         {/* Store locations sections column */}
         <div

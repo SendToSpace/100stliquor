@@ -1,5 +1,10 @@
-.footer {
-  display: flex;
+.site__footer {
+  margin: 0 auto;
+  width: 960px;
+  background: #1e3138;
+  padding: 1rem;
+  color: #a8a8a8;
+  background-color: black;
 }
 
 .footer__section {
@@ -28,3 +33,12 @@
 .footer__column__menu__item__link {
 }
 /* footer columns sections same as Overview sections*/
+
+/* footer social media sections*/
+.horizontal__footer__section {
+}
+.footer__bottom__section {
+}
+
+.footer__copyright__info {
+}
