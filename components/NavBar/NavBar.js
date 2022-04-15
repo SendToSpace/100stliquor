@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   return (
     <div>
-      <header>
+      <header className={styles.header}>
         <nav>
-          <ul className="nav-links">
+          <ul className={styles.nav__links}>
             <li>
               <Link href="/">
                 <a>Home</a>
@@ -24,7 +25,7 @@ const NavBar = () => {
             </li>
           </ul>
         </nav>
-        <button>Contact</button>
+        <button className={styles.button}>Contact</button>
       </header>
     </div>
   );
