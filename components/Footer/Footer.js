@@ -3,8 +3,11 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.site__footer}>
-      <section className={styles.footer__section}>
+    <footer id={styles.site__footer}>
+      <section
+        className={styles.horizontal__footer__section}
+        id={styles.footer__middle__section}
+      >
         {/* Store locations sections column */}
         <div
           id={styles.footer__about}
@@ -134,7 +137,7 @@ const Footer = () => {
           &copy; 100stliquor Inc. {new Date().getFullYear()}. All rights
           reserved.
         </div>
-        <div id="footer-social-buttons">
+        <div id={styles.footer__social__buttons}>
           <img src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png" />
           <img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png" />
           <img src="https://img.icons8.com/ios-filled/25/999999/pinterest--v1.png" />
