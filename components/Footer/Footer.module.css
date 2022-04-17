@@ -1,21 +1,21 @@
 #site__footer {
   margin: 0 auto;
   width: 960px;
-  background: #1e3138;
+  background: (--gb-primary-color);
   padding: 1rem;
-  color: #a8a8a8;
+  color: var(--gray30);
 }
 
 #site__footer a {
-  color: #a8a8a8;
+  color: var(--gray30);
 }
 
 #site__footer a:hover {
-  color: #00c3ce;
+  color: var(--link-hover10);
 }
 
 #site__footer h1 {
-  color: #cecece;
+  color: var(--gray10);
 }
 
 #site__footer .horizontal__footer__section {
@@ -93,7 +93,7 @@
 #site__footer .horizontal__footer__section#footer__bottom__section {
   padding: 1.32rem 0;
   margin: 2rem 2rem 1.32rem 2rem;
-  border-top: 0.05rem solid #666666;
+  border-top: 0.05rem solid var(--gray30);
 }
 
 #site__footer #footer__social__buttons {

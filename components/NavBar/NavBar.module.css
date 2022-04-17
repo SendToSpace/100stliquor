@@ -19,12 +19,12 @@
 }
 
 .nav__links li a:hover {
-  color: #00c3ce;
+  color: var(--link-hover10);
 }
 
 .button {
   padding: 9px 25px;
-  background-color: #0088a9;
+  background-color: var(--btn-primary);
   opacity: 1;
   border: none;
   border-radius: 50px;
@@ -33,6 +33,6 @@
 }
 
 .button:hover {
-  background-color: white;
+  background-color: var(--btn-hover-primary);
   opacity: 0.8;
 }
